@@ -1,0 +1,5 @@
+
+.venv/Lib
+.venv/share
+.venv/Scripts
+.gitignore
