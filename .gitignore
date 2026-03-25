@@ -3,3 +3,4 @@
 .venv/share
 .venv/Scripts
 .gitignore
+.env
