@@ -4,3 +4,4 @@
 .venv/Scripts
 .gitignore
 .env
+__pycache__/tools.cpython-310.pyc
