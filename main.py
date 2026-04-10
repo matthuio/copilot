@@ -5,6 +5,7 @@ import threading
 import pyaudio
 import numpy as np
 from scipy.io.wavfile import write
+from whisper_transcribe import transcribe
 
 # Settings
 sample_rate = 44100
@@ -64,7 +65,8 @@ def hotkeyRelease(event):
                     audio = audio / max_val
                 audio_int16 = np.int16(audio * 32767)
                 write("voice.wav", sample_rate, audio_int16)
-                print("Saved voice.wav")
+                print("Saved voice.wav,Transcribing")
+                transcribe()
             else:
                 print("No audio recorded.")
         except Exception as e:

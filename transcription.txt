@@ -1,1 +1,1 @@
-Delete my test.py python file
+ Hey, could you um, look into my test.py Python file for me please and just have it print hello world and then after it prints hello world, could you please just let it add two random numbers and then print those two random numbers as well.
